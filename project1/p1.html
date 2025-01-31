@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+            transition: background-color 0.5s ease;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>LANKIREDDY M S K REDDY</h1>
+        <p>Student | Vijayawada, INDIA</p>
+        <p>Email: <a href="mailto:lankireddymskreddy2004@gmail.com">lankireddymskreddy2004@gmail.com</a></p>
+        <p>Phone: <a href="tel:+919493174789">+91-9493174789</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/MSK REDDY LANKIREDDY" target="_blank">MSK REDDY LANKIREDDY</a></p>
+        <p>GitHub: <a href="https://github.com/monkey00707" target="_blank">monkey00707</a></p>
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Blight Disease Detection</strong> - Developed a machine learning model using KNN to classify potato leaf diseases.</li>
+            <li><strong>Text Summarizer using NLP</strong> - Created a Python-based summarizer, winning an internal hackathon.</li>
+            <li><strong>Age and Gender Detection</strong> - Built a age detection system using OpenCV and deep learning.</li>
+        </ul>
+        <h2>Technical Skills</h2>
+        <p>HTML,CSS,JS,Python, C, C++, Java, Cybersecurity, Machine Learning, NLP, Data Visualization, Statistical Analysis</p>
+        <h2>Certifications</h2>
+        <p>Python for Everybody Specialization - University of Michigan (Coursera), 2023</p>
+        <button class="button" onclick="changeBackgroundColor()">Change Background</button>
+    </div>
+    <script>
+        function changeBackgroundColor() {
+            document.body.style.backgroundColor = document.body.style.backgroundColor === 'lightblue' ? '#f4f4f4' : 'lightblue';
+        }
+    </script>
+</body>
+</html>
